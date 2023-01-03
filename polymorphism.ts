@@ -1,10 +1,8 @@
-type SuperPrint = {
-    <T, M>(a: T[], b: M): T;
-};
+function superPrint<V>(a: V[]) {
+    return a[0];
+}
 
-const superPrint: SuperPrint = (a) => a[0];
-
-const a = superPrint([1, 2, 3, 4], "x");
-const b = superPrint([true, false, true], 1);
-const c = superPrint(["a", "b", "c"], false);
-const d = superPrint([1, 2, true, "hello"], []);
+const a = superPrint([1, 2, 3, 4]);
+const b = superPrint([true, false, true]);
+const c = superPrint(["a", "b", "c"]);
+const d = superPrint([1, 2, true, "hello"]);
