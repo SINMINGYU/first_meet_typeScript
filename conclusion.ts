@@ -23,4 +23,4 @@ function printAllNumbers2(arr: number[]) {
     return arr;
 }
 
-useState<number>();
+// useState<number>();
