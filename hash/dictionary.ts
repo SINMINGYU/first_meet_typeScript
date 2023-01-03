@@ -23,7 +23,7 @@ class Word {
 
 const kimchi = new Word("kimchi", "한국의 음식");
 
-kimchi.def = "xxx";
+// kimchi.def = "xxx";
 
 const dict = new Dict();
 
