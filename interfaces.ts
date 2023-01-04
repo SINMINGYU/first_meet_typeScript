@@ -111,6 +111,6 @@ interface PlayerB {
     firstName: string;
 }
 
-class UserA implements PlayerA {
+class UserA implements PlayerB {
     constructor(public firstName: string) {}
 }
